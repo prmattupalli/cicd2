@@ -140,7 +140,6 @@
         <dependency>
             <groupId>com.mycompany.app</groupId>
             <artifactId>my-app</artifactId>
-            <packaging>jar</packaging>
             <version>1.0-20180227.155813-1</version>
             <scope>provided</scope>
         </dependency>
