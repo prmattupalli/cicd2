@@ -140,7 +140,6 @@
         <dependency>
             <groupId>com.mycompany</groupId>
             <artifactId>mavenex</artifactId>
-            <baseVersion>1.0.0-SNAPSHOT</baseVersion>
             <version>1.0.0-20180223.045322-1</version>
             <scope>provided</scope>
         </dependency>
