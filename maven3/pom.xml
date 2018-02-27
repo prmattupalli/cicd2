@@ -138,9 +138,10 @@
         </dependency>
         
         <dependency>
-            <groupId>com.mycompany</groupId>
-            <artifactId>mavenex</artifactId>
-            <version>1.0.0-20180223.045322-1</version>
+            <groupId>com.mycompany.app</groupId>
+            <artifactId>my-app</artifactId>
+            <packaging>jar</packaging>
+            <version>1.0-20180227.155813-1</version>
             <scope>provided</scope>
         </dependency>
         
