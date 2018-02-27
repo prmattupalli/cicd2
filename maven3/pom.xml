@@ -141,7 +141,9 @@
             <groupId>com.mycompany</groupId>
             <artifactId>mavenex</artifactId>
             <version>1.0.0-20180223.045322-1</version>
-            <scope>provided</scope>
+            <packaging>zip</packaging>
+            <systemPath>http://localhost:9001/repository/maven-public/com/mycompany/mavenex/1.0.0-SNAPSHOT/mavenex-1.0.0-20180223.045322-1.zip</systemPath>
+            <scope>system</scope>
         </dependency>
         
         
