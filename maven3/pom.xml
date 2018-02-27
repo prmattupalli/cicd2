@@ -141,7 +141,6 @@
             <groupId>com.mycompany</groupId>
             <artifactId>mavenex</artifactId>
             <version>1.0.0-20180223.045322-1</version>
-            <packaging>zip</packaging>
             <scope>provided</scope>
         </dependency>
         
