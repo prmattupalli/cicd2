@@ -136,6 +136,16 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
+        
+        <dependency>
+            <groupId>com.mycompany</groupId>
+            <artifactId>mavenex</artifactId>
+            <baseVersion>1.0.0-SNAPSHOT</baseVersion>
+            <version>1.0.0-20180223.045322-1</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        
     </dependencies>
 
 	<repositories>
@@ -151,6 +161,10 @@
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
+    <repository>
+      <id>nexus</id>
+      <url>http://localhost:9001/repository/maven-public/</url>
+    </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -163,5 +177,17 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+    <!--<distributionManagement>
+    <repository>
+      <id>nexus-releases</id>
+      <name>Releases</name>
+      <url>http://localhost:9001/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <name>Snapshot</name>
+      <url>http://localhost:9001/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>-->
 
 </project>
